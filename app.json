@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "GUSTAVO_CI_CD",
+    "slug": "gustavocicd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gustavosleites24.gustavocicd",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gustavosleites24.gustavocicd"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "gustavosleites-24",
+    "extra": {
+      "eas": {
+        "projectId": "f08f8dbe-6ed4-4913-812a-ca15dbf8a747"
+      }
+    }
+  }
+}
